@@ -49,6 +49,9 @@ body {
     font-weight: bold;
     cursor:grab;
     transition: transform 0.2s;
+    touch-action: none;
+    -webkit-user-select: none; 
+    user-select: none;
 }
 
 .img-item {
@@ -57,6 +60,8 @@ body {
     border-radius: 15px;
     pointer-events: none;
     object-fit: cover;
+    -webkit-user-drag: none;
+    pointer-events: none;
 }
 
 .dragging {
